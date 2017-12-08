@@ -1,0 +1,25 @@
+{
+    "name": "seffeng/yii-helpers",
+    "description": "Yii2 extension helpers",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "homepage": "https://github.com/seffeng/yii-helpers",
+    "authors": [
+        {
+            "name": "seffeng",
+            "email": "seffeng@sina.cn",
+            "homepage": "http://www.1kmi.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6.0",
+        "yiisoft/yii2": ">=2.0.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "seffeng\\helpers\\": "src/"
+        }
+    }
+}
